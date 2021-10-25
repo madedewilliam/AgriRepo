@@ -44,7 +44,7 @@ class OfficerController extends Controller{
             'password' => [
                 'required',
                 'confirmed',
-                'min:6',
+                'min:8',
                 'regex:/[A-Z]/',
                 'regex:/[0-9]/',
             ],
